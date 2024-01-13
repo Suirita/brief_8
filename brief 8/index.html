@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFilmList</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/1e702862f4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="navbar">
+            
+            <h1>MyFilmList</h1>
+            
+            <div id="wrap">
+            
+                <form id="search">
+            
+                    <input type="text" id="searchTerm" placeholder="search">
+                    <button type="button" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+            
+                </form>
+            </div>
+            
+        <nav>
+            
+            <ul>
+            
+                <li id="Home">Home</li>
+                <li id="fav_list">fav</li>
+        
+            </ul>
+            
+        </nav>
+            
+    </div>
+
+    <header>
+
+        <div class="slider">
+
+        
+            <div class="slides">
+        
+                <div class="slide">
+                    <img alt="Image 1" class="slide_img">
+                    <span id="name_0"></span>
+                    <p id="overview_0"></p>
+                    <span id="rating_0"></span>
+                </div>
+        
+                <div class="slide">
+                    <img alt="Image 2" class="slide_img">
+                    <span id="name_1"></span>
+                    <p id="overview_1"></p>
+                    <span id="rating_1"></span>
+                </div>
+        
+                <div class="slide">
+                    <img alt="Image 3" class="slide_img">
+                    <span id="name_2"></span>
+                    <p id="overview_2"></p>
+                    <span id="rating_2"></span>
+                </div>
+
+                <div class="slide">
+                    <img alt="Image 4" class="slide_img">
+                    <span id="name_3"></span>
+                    <p id="overview_3"></p>
+                    <span id="rating_3"></span>
+                </div>
+
+                <div class="slide">
+                    <img alt="Image 5" class="slide_img">
+                    <span id="name_4"></span>
+                    <p id="overview_4"></p>
+                    <span id="rating_4"></span>
+                </div>
+        
+            </div>
+        
+            <div class="prev">&#10094;</div>
+            <div class="next">&#10095;</div>
+        
+        </div>
+
+    </header>
+
+    <main>
+
+        <hr>
+
+        <h3>List</h3>
+
+        <div id="container">
+            
+        </div>
+
+        <script src="script.js"></script>
+
+    </main>
+    
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+#navbar {
+    width: 100%;
+    height: 16vh;
+    background: #E5153F;
+    box-shadow: 0px 10px 50px 0px #000;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#navbar h1 {
+    background: linear-gradient(45deg, rgba(207, 21, 230, 1) 0%, rgba(21, 230, 174, 1) 74%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+
+#wrap {
+    position: absolute;
+    top: 30px;
+    right: 22vw;
+}
+
+#search {
+    width: 25vw;
+    display: flex;
+}
+
+#searchTerm {
+    width: 100%;
+    height: 35px;
+    border-right: none;
+    padding: 0;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    color: #787878;
+    padding-left: 15px;
+}
+
+#searchTerm:focus {
+    color: black;
+}
+
+#searchButton {
+    width: 35px;
+    height: 37px;
+    border: 1px solid black;
+    background: #FFF;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+}
+
+nav {
+    position: absolute;
+    top: 35px;
+    right: 3vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    list-style-type: none;
+    font-size: 24px;
+    margin: 0;
+}
+
+
+nav li:hover {
+    cursor: pointer;
+    color: #E615BC;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 80px;
+    column-gap: 63px;
+    padding-left: 21px;
+    padding-right: 21px;
+    position: relative;
+    top: 50px;
+}
+
+#output div {
+    position: relative;
+    width: 250px;
+    height: 525px;
+}
+
+#output div:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+}
+
+#output img {
+    width: 250px;
+    height: 400px;
+}
+
+.fav {
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.rating {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
